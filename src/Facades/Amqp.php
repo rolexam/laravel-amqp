@@ -11,6 +11,11 @@ use Illuminate\Support\Facades\Facade;
 class Amqp extends Facade
 {
 
+    public static function fake()
+    {
+
+    }
+
     /**
      * @return string
      */
